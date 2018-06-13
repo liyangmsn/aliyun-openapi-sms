@@ -1,0 +1,37 @@
+{
+  "name": "liyangmsn/aliyun-openapi-sms",
+  "description": "The SMS SDK for Aliyun OpenAPI",
+  "keywosls": [
+    "aliyun",
+    "sls",
+    "php",
+    "sdk",
+    "logs"
+  ],
+  "homepage": "https://github.com/liyangmsn/aliyun-openapi-sls",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.0",
+    "liyangmsn/aliyun-openapi-core": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\SLS\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aliyun\\SLS\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
