@@ -19,12 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\SLS\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Aliyun\\SLS\\Tests\\": "tests"
+      "Aliyun\\Sms\\": "src"
     }
   },
   "scripts": {
